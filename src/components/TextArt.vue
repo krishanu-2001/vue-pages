@@ -38,8 +38,8 @@ export default {
 .text > span {
   display: block;
   background-color: #fff;
-  width: 30px;
-  height: 0px;
+  width: 28px;
+  height: 20px;
   line-height: 0px;
   transition: transform 0.3s ease-in-out, color 0.3s ease-in-out,
     background-color 0.3s ease-in-out;

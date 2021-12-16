@@ -108,6 +108,7 @@ function fillRows(erx) {
   color: rgb(228, 228, 228);
   flex-direction: column;
   height: fit-content;
+  overflow: hidden;
   /* box-shadow: 2px -1px 4px 2px rgb(10, 12, 10, 0.5); */
 }
 
