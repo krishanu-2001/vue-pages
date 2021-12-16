@@ -86,7 +86,7 @@ export default {
 <style>
 #app {
   /* margin: 10px; */
-  min-width: 800px;
+  min-width: 900px;
   min-height: 800px;
 }
 </style>
@@ -111,15 +111,15 @@ export default {
 }
 
 #devbox1 {
-  background-color: rgb(112, 221, 224);
+  background-color: rgb(255, 255, 255);
 }
 
 #devbox2 {
-  background-color: rgb(162, 237, 247);
+  background-color: rgb(255, 255, 255);
 }
 
 #devbox3 {
-  background-color: rgb(235, 94, 216);
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
