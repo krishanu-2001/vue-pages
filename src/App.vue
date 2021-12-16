@@ -3,37 +3,40 @@
     <Nav />
     <div class="devbox" id="devbox1">
       <div>
-        <h1>App Development</h1>
-      </div>
-      <div>
         <Panorama
           v-bind:skillsImgList="webdevSkills"
           :stylePropElement="stylePropElement1"
+          description="DEVELOPMENT"
         />
+      </div>
+      <div class="dev-data-box">
+        <h1>Expressing my views to the world.</h1>
       </div>
     </div>
 
     <div class="devbox" id="devbox2">
+      <div class="dev-data-box">
+        <h1>Algorithms et al.</h1>
+      </div>
       <div>
         <Panorama
           v-bind:skillsImgList="programmingSkills"
           :stylePropElement="stylePropElement2"
+          description="PROGRAMMING"
         />
-      </div>
-      <div>
-        <h1>Programming Languages</h1>
       </div>
     </div>
 
     <div class="devbox" id="devbox3">
       <div>
-        <h1>Latest Indulgements</h1>
-      </div>
-      <div>
         <Panorama
           v-bind:skillsImgList="otherSkills"
           :stylePropElement="stylePropElement3"
+          description="PASSION"
         />
+      </div>
+      <div class="dev-data-box">
+        <h1>Exploring the latest tech.</h1>
       </div>
     </div>
   </div>
@@ -86,7 +89,7 @@ export default {
 <style>
 #app {
   /* margin: 10px; */
-  min-width: 900px;
+  /* min-width: 900px; */
   min-height: 800px;
 }
 </style>
@@ -120,6 +123,10 @@ export default {
 
 #devbox3 {
   background-color: rgb(255, 255, 255);
+}
+
+.dev-data-box {
+  align-self: center;
 }
 
 h1 {

@@ -1,13 +1,15 @@
 <template>
   <div class="box">
     <!-- button at top -->
-    <div class="wrapper" v-on:click="shuffle">
-      <div class="icon facebook">
-        <div class="tooltip">Shuffle</div>
-        <span><i class="fa fa-random"></i></span>
+    <div style="display: flex; flex-direction: row">
+      <div class="wrapper" v-on:click="shuffle">
+        <div class="icon facebook">
+          <div class="tooltip">Shuffle</div>
+          <span><i class="fa fa-random"></i></span>
+        </div>
       </div>
+      <div class="node-text"><TextArt :text="description" /></div>
     </div>
-
     <!-- main shuffle list -->
     <transition-group
       name="list-complete"
@@ -34,13 +36,15 @@
 
 <script>
 import Photo from './Photo.vue'
+import TextArt from './TextArt.vue'
 import _ from 'lodash'
 
 export default {
   name: 'Panorama',
-  props: ['skillsImgList', 'stylePropElement'],
+  props: ['skillsImgList', 'stylePropElement', 'description'],
   components: {
     Photo,
+    TextArt,
   },
   data() {
     return {
@@ -84,7 +88,7 @@ function styleObjectFill(dep) {
 
 <style scoped>
 /* The grid-area defines the names of the grid areas that would be specified in the grid-template-areas in the parent container */
-.box{
+.box {
   z-index: 999;
 }
 
@@ -106,6 +110,14 @@ function styleObjectFill(dep) {
   /* background-color: aqua; */
 }
 
+.node-text {
+  margin-left: 20px;
+  font-size: 2em;
+  align-self: center;
+  width: 100%;
+  /* text-align: center; */
+}
+
 .list-complete-item {
   transition: all 1s;
   display: inline-block;
@@ -122,7 +134,6 @@ function styleObjectFill(dep) {
 </style>
 
 <style scoped>
-
 /*
     Author: Abdelrhman Said
 */
@@ -220,3 +231,4 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 </style>
+
