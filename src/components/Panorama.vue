@@ -99,10 +99,12 @@ function styleObjectFill(dep) {
 
 /* Parent Grid Container */
 .grid-parent-container {
-  width: 100px;
+  z-index: 999;
+  width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 10px;
+  grid-gap: 20px;
+  justify-content: center;
 }
 
 .grid-child {
@@ -229,6 +231,26 @@ body {
 
 .tooltip {
   font-family: 'Courier New', Courier, monospace;
+}
+</style>
+
+<style scoped>
+@media screen and (min-width: 1000px) {
+  .grid-parent-container {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .grid-parent-container {
+    grid-template-columns: auto auto;
+    gap: 10%;
+    height: 500px;
+  }
+  .img0 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
 }
 </style>
 

@@ -69,19 +69,19 @@ export default {
       stylePropElement1: {
         background:
           'url(' + require('@/assets/background2.png') + ') no-repeat center',
-        width: '400px',
+        width: '100%',
         boxShadow: '2px 2px 7px 1px rgb(10, 10, 10, 0.5)',
       },
       stylePropElement2: {
         background:
           'url(' + require('@/assets/background5.png') + ') no-repeat center',
-        width: '400px',
+        width: '100%',
         boxShadow: '2px 2px 7px 1px rgb(10, 10, 10, 0.5)',
       },
       stylePropElement3: {
         background:
-          'url(' + require('@/assets/background1.png') + ') no-repeat center',
-        width: '400px',
+          'url(' + require('@/assets/background11.jpg') + ') no-repeat center',
+        width: '100%',
         boxShadow: '2px 2px 7px 1px rgb(10, 10, 10, 0.5)',
       },
     }
@@ -132,7 +132,7 @@ export default {
 
 .dev-data-box {
   align-self: center;
-  margin-left: 30px
+  margin-left: 30px;
 }
 
 h1 {
@@ -154,17 +154,21 @@ h1 {
     display: none;
   }
   .dev-data-box {
-    background-color: rgb(0, 0, 0);
-    margin-top: 10px;
-    padding: 10px 0px 10px 0px;
-    width:100%;
+    /* background-color: rgb(0, 0, 0); */
+    top: -100px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    width: 80%;
     /* min-width: 400px; */
-    border: 2px solid rgb(7, 7, 7);
+    border: 2px solid rgb(133, 106, 255);
+    border-radius: 10px;
     margin-bottom: 100px;
     font-size: 10px;
     left: auto;
     right: auto;
-    color: rgb(174, 173, 173);
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.815);
+    box-shadow: -2px 2px 1px 1px rgba(251, 251, 255, 0.815);
   }
 }
 </style>

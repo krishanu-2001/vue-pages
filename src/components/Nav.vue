@@ -255,12 +255,29 @@ a {
 }
 
 .pi {
+  cursor: pointer;
   border-radius: 5px 5px 5px 5px;
   padding: 8px;
   margin: 5px;
   text-shadow: 1px 1px 1px grey;
   box-shadow: -2px 2px 0px 1px rgba(94, 148, 219, 0.397);
   border: 2px solid rgba(119, 143, 173, 0.603);
+}
+
+.pi:hover {
+  animation: backin 1s 1 forwards;
+}
+.pi:active {
+  animation: backin 0.6s 1 forwards;
+}
+
+@keyframes backin {
+  0% {
+    background-color: none;
+  }
+  100% {
+    background-color: rgb(72, 72, 145);
+  }
 }
 </style>
 
