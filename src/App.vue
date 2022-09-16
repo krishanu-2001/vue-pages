@@ -71,14 +71,14 @@ export default {
       otherSkills: otherSkills,
       stylePropElement1: {
         background:
-          'url(' + require('@/assets/background2.png') + ') no-repeat center',
+          'url(' + require('@/assets/background2a.jpg') + ') no-repeat center',
         backgroundSize: '100% 100%',
         width: '100%',
         boxShadow: '2px 2px 7px 1px rgb(10, 10, 10, 0.5)',
       },
       stylePropElement2: {
         background:
-          'url(' + require('@/assets/background5.png') + ') no-repeat center',
+          'url(' + require('@/assets/background5a.jpg') + ') no-repeat center',
         backgroundSize: '100% 100%',
         width: '100%',
         boxShadow: '2px 2px 7px 1px rgb(10, 10, 10, 0.5)',

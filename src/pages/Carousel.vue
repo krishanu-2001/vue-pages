@@ -37,7 +37,7 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="@/assets/design5a.png"
+            src="@/assets/design5b.jpg"
             alt="image slot"
           />
         </template>
