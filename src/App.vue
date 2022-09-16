@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Nav />
-    <BoundingBox />
+    <Carousel />
     <div class="devbox devbox-sml" id="devbox1">
       <div>
         <Panorama
@@ -54,14 +54,14 @@ import {
   programmingSkills,
   otherSkills,
 } from '@/assets/skillsList'
-import BoundingBox from './components/BoundingBox.vue'
+import Carousel from './pages/Carousel.vue'
 
 export default {
   name: 'App',
   components: {
     Nav,
     Panorama,
-    BoundingBox,
+    Carousel,
   },
   data() {
     return {

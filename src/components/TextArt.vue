@@ -1,6 +1,6 @@
 <template>
   <div class="text">
-    <span v-for="char in text" v-bind:key="char">{{ char }}</span>
+    <span v-for="(char, i) in text" v-bind:key="i">{{ char }}</span>
   </div>
 </template>
 

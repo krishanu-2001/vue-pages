@@ -3,22 +3,22 @@
     <div class="laptop">
       <div>
         <div class="header" :style="styleElement1">
-          <div v-for="keys in lapKeys1" v-bind:key="keys">
+          <div v-for="(keys, i) in lapKeys1" v-bind:key="0 + i">
             <div class="pi grid-child" id="bottom1">{{ keys.symbol }}</div>
           </div>
         </div>
         <div class="header" :style="styleElement2">
-          <div v-for="keys in lapKeys2" v-bind:key="keys">
+          <div v-for="(keys, i) in lapKeys2" v-bind:key="100 + i">
             <div class="pi grid-child" id="bottom1">{{ keys.symbol }}</div>
           </div>
         </div>
         <div class="header" :style="styleElement3">
-          <div v-for="keys in lapKeys3" v-bind:key="keys">
+          <div v-for="(keys, i) in lapKeys3" v-bind:key="200 + i">
             <div class="pi grid-child" id="bottom1">{{ keys.symbol }}</div>
           </div>
         </div>
         <div class="header" :style="styleElement4">
-          <div v-for="keys in lapKeys4" v-bind:key="keys">
+          <div v-for="(keys, i) in lapKeys4" v-bind:key="300 + i">
             <div class="pi grid-child" id="bottom1">{{ keys.symbol }}</div>
           </div>
         </div>
@@ -246,6 +246,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100px;
 }
 
 .header {
