@@ -22,7 +22,7 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="@/assets/design1a.png"
+            src="@/assets/design1.png"
             alt="image slot"
           />
         </template>
@@ -37,7 +37,7 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="@/assets/design5b.jpg"
+            src="@/assets/design5.jpg"
             alt="image slot"
           />
         </template>
@@ -52,7 +52,7 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="@/assets/design2a.png"
+            src="@/assets/design2.png"
             alt="image slot"
           />
         </template>
