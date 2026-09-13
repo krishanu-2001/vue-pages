@@ -1,6 +1,8 @@
-# Projects
+## Earlier Research
 
-## Anomaly Detection using Generative Adversarial Network
+Work from the Computational Intelligence and Machine Learning Lab at IIT Indore, supervised by Prof. Aruna Tiwari and Dr. Sanjay Singh. These lines of work produced the [publications](/publications) listed on this site.
+
+### Anomaly Detection using Generative Adversarial Network
 
 **Jan 2022 - Feb 2024**
 Computational Intelligence and Machine Learning Lab
@@ -18,7 +20,7 @@ Our research leverages high-speed cameras to capture real-time data on anomalies
 
 ---
 
-## Image-to-Image Translation using Generative Adversarial Network
+### Image-to-Image Translation using Generative Adversarial Network
 
 **Jun 2023 - Feb 2024**
 Computational Intelligence and Machine Learning Lab
@@ -36,7 +38,7 @@ This research was started to find answers to questions like — Can an image of 
 
 ---
 
-## Teaching AI to Sketch
+### Teaching AI to Sketch
 
 Deep learning models with the help of convolutional neural networks learn to interpret and understand images by extracting and analyzing hierarchical features. This works well for images which resemble gaussian distribution. However, unlike natural images, sketches are designed as vectors which poses a significant challenge.
 
@@ -46,7 +48,7 @@ Our research addresses this challenge by developing a deep learning model capabl
 
 ---
 
-## An Ethical Dataset for Non-Existing Living Beings (SIPT-GAN)
+### An Ethical Dataset for Non-Existing Living Beings (SIPT-GAN)
 
 One of the bottlenecks for AI is the availability of ethically sourced data for training. Production houses have utilized green screens and sensors to generate such data since a long time now. Generative AI provides us a means to utilize existing videos and mask confidential information while retaining the semantics of a scene or an action.
 
@@ -62,7 +64,7 @@ Built using **SIPT-GAN** (Style-Infused Perception Transformer based GAN) — a 
 
 ---
 
-## Orthodontics — Teeth Alignment Prediction
+### Orthodontics — Teeth Alignment Prediction
 
 Orthodontics is a specialist branch of dentistry. The term "orthodontics" can be broken down into two Greek words — "orthos" meaning straight or correct and "dontics" meaning teeth.
 
@@ -72,4 +74,4 @@ _Video demonstration available on request._
 
 ---
 
-See the full list of papers on the [Publications](publications.md) page.
+See the full list of papers on the [Publications](/publications) page.

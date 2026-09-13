@@ -4,9 +4,9 @@
 
 # Krishanu Saini
 
-<div class="about-hero__tagline">Computer Science Researcher · IIT Indore Silver Medalist · UT Austin</div>
+<div class="about-hero__tagline">MS CS @ UT Austin · Co-Founder & CTO at Spindle · IIT Indore Silver Medalist</div>
 
-I am a computer science researcher with a focus on generative AI, video anomaly detection, and distributed systems. My work spans deep learning architectures for real-time surveillance, novel GAN frameworks for multi-domain image translation, and distributed inference for edge LLMs.
+I build and study systems where machine learning meets infrastructure — decentralized LLM serving, LLM-driven policy search for operating systems, and generative video with verifiable consistency. Before graduate school I spent two years at Goldman Sachs on streaming infrastructure for the firm's central trade-restriction platform, and eleven papers on generative models for video anomaly detection came out of my time at IIT Indore.
 
 <div class="about-hero__links">
 <a href="https://scholar.google.com/citations?user=qDIfyfgAAAAJ" target="_blank">Google Scholar</a>
@@ -22,26 +22,58 @@ I am a computer science researcher with a focus on generative AI, video anomaly 
 <div class="research-card">
 <div class="research-card__label">Current</div>
 
-- **Agentic AI** — Evaluation frameworks for AI agent autonomy and capability assessment.
-- **Human-in-the-loop** — Improving Agentic Loops with human alignment and escalation interrupts.
+- **ML Systems** — Decentralized prefix-cache-aware routing for peer-to-peer LLM inference.
+- **LLMs for Systems** — Evolutionary synthesis of OS scheduling policies with guardrailed LLM agents.
+- **Generative Video** — Procedural, object-consistent video generation and automated reward metrics.
 
 </div>
 
 <div class="research-card">
 <div class="research-card__label">Past</div>
 
-- **Video Anomaly Detection** — Real-time detection of abnormal events using generative adversarial networks
-- **Generative AI** — Multi-domain image-to-image translation, style transfer, ethical dataset generation
+- **Video Anomaly Detection** — Real-time detection of abnormal events using generative adversarial networks.
+- **Generative AI** — Multi-domain image-to-image translation, style transfer, ethical dataset generation.
+- **Agentic AI** — A framework for evaluating the agency of AI agents, across six capability dimensions.
 
 </div>
 
 </div>
+
+### Education
+
+| Institution                               | Degree                                                                                       |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **The University of Texas at Austin**     | MS in Computer Science, GPA 3.94/4.00 · Expected May 2027 · TA for EE 360C (Algorithms)      |
+| **Indian Institute of Technology Indore** | B.Tech in Computer Science & Engineering, CPI 9.81/10 · Institute Silver Medal · 2019 – 2023 |
+
+Graduate coursework: Natural Language Processing, Distributed Systems, Convex Optimization, Advanced Systems for GenAI, Spoken Language Technologies, Generating Kernels using AI/ML.
+
+### Technical Skills
+
+| Area               | Tools                                                                              |
+| ------------------ | ---------------------------------------------------------------------------------- |
+| **Languages**      | Python, Java, JavaScript, SQL, C++, Verilog                                        |
+| **ML / AI**        | PyTorch, TensorFlow, LoRA fine-tuning, LangChain, MCP, RAG, Laminar                |
+| **Systems & Data** | PostgreSQL (pgvector, RLS), OpenSearch, Redis, Kafka, Temporal, Docker, Kubernetes |
+| **Cloud & Ops**    | AWS (ECS, Cognito, API Gateway), Prometheus, Grafana, Git, Linux                   |
+| **Frontend**       | React / Redux                                                                      |
 
 ### Quick Links
 
-- [Research Projects](/projects) — Anomaly detection, image translation, sketch completion, orthodontics
-- [GitHub Repositories](/github) — SIPT-GAN, Distributed Edge LLMs, ASTNet, EDGAR Analyser
-- [Publications](/publications) — 9 peer-reviewed publications, 130 citations
+- [Projects](/projects) — Full write-ups: procedural video generation, decentralized LLM inference, OS-Evolve, Spindle
+- [Work Experience](/experience) — Spindle, P95.ai, Goldman Sachs, PineGap
+- [GitHub Repositories](/github) — SIPT-GAN, Distributed Edge LLMs, OS-Evolve, ASTNet, EDGAR Analyser
+- [Publications](/publications) — 11 peer-reviewed publications, 158 citations
+
+---
+
+## Semifinalist — Texas Venture Labs Investment Competition
+
+**Spindle** | The University of Texas at Austin | **May 2026**
+
+Pitched Spindle to venture capitalists and industry judges at the Texas Venture Labs Investment Competition, advancing to the semifinals from a cohort of 80 ventures. Spindle is an AI assistant for fashion designers that turns fragmented inspiration and commercial data into technical documents and coordinates the supplier loop around them.
+
+[Read the Spindle write-up →](/projects/spindle)
 
 ---
 
@@ -90,3 +122,11 @@ Awarded the Institute Silver Medal for securing the highest Cumulative Performan
 ![Silver Medal](Talk/silver-medal.jpeg)
 
 ![Director Giving Award](Talk/director-giving-award.jpeg)
+
+---
+
+## ICPC Regionals
+
+**January 2023** | Indore, India
+
+Represented IIT Indore at the nationals of the International Collegiate Programming Contest, the world's largest collegiate programming competition.

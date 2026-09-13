@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'
@@ -39,12 +40,18 @@ const components: Components = {
     return <img src={resolvedSrc} alt={alt || ''} className={className} loading="lazy" />
   },
   a: ({ href, children }) => {
-    const isExternal = href?.startsWith('http')
-    return (
-      <a href={href} {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
-        {children}
-      </a>
-    )
+    if (href?.startsWith('http')) {
+      return (
+        <a href={href} target="_blank" rel="noopener noreferrer">
+          {children}
+        </a>
+      )
+    }
+    // Keep in-site navigation client-side; leave anchors and files to the browser.
+    if (href?.startsWith('/') && !href.includes('.')) {
+      return <Link to={href}>{children}</Link>
+    }
+    return <a href={href}>{children}</a>
   },
   table: ({ children }) => (
     <div className="table-wrapper">

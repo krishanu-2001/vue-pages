@@ -16,8 +16,10 @@ export function Sidebar({ onNavigate }: SidebarProps) {
             <NavLink
               key={item.slug}
               to={item.path}
-              end={item.path === '/'}
-              className={({ isActive }) => `sidebar__link${isActive ? ' active' : ''}`}
+              end
+              className={({ isActive }) =>
+                `sidebar__link${item.nested ? ' sidebar__link--nested' : ''}${isActive ? ' active' : ''}`
+              }
               onClick={onNavigate}
             >
               {item.label}

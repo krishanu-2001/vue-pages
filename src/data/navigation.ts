@@ -3,18 +3,30 @@ import projectsContent from '../content/projects.md?raw'
 import githubContent from '../content/github.md?raw'
 import publicationsContent from '../content/publications.md?raw'
 import experienceContent from '../content/experience.md?raw'
+import { projects, projectAsMarkdown, projectPath } from './projects'
 
 export interface NavItem {
   slug: string
   label: string
   path: string
   content: string
+  /** Rendered indented under its parent entry in the sidebar. */
+  nested?: boolean
 }
 
 export interface NavSection {
   title: string
   items: NavItem[]
 }
+
+/** Project write-ups get their own nav entries so search and the TOC cover them. */
+const projectItems: NavItem[] = projects.map((project) => ({
+  slug: `project-${project.slug}`,
+  label: project.label,
+  path: projectPath(project),
+  content: projectAsMarkdown(project),
+  nested: true,
+}))
 
 export const navigation: NavSection[] = [
   {
@@ -24,7 +36,13 @@ export const navigation: NavSection[] = [
   {
     title: 'Research',
     items: [
-      { slug: 'projects', label: 'Projects', path: '/projects', content: projectsContent },
+      {
+        slug: 'projects',
+        label: 'All Projects',
+        path: '/projects',
+        content: `## Selected Work\n\n${projectsContent}`,
+      },
+      ...projectItems,
       {
         slug: 'publications',
         label: 'Publications',

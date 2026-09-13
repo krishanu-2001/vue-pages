@@ -1,6 +1,8 @@
 # Publications
 
-**Total Citations: 130** | **Google Scholar:** [Profile](https://scholar.google.com/citations?user=qDIfyfgAAAAJ&hl=en)
+**11 papers · 158 citations** | **Google Scholar:** [Profile](https://scholar.google.com/citations?user=qDIfyfgAAAAJ&hl=en)
+
+Generative models for video anomaly detection and image-to-image translation, published in _Engineering Applications of Artificial Intelligence_, _Image and Vision Computing_, _Applied Intelligence_, _Signal, Image and Video Processing_, IEEE SSCI, ICONIP and CVIP. Selected papers below; the complete list is on Google Scholar.
 
 ---
 

@@ -40,3 +40,9 @@
   border-left-color: var(--accent);
   background: var(--bg-hover);
 }
+
+.sidebar__link--nested {
+  padding-left: 2.25rem;
+  font-size: 0.78125rem;
+  color: var(--text-muted);
+}
